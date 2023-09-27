@@ -1,0 +1,43 @@
+<%-include('../partials/header')-%>
+<%-include('../partials/navbar')-%>
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-5 col-md-4 text-center">
+            <h1 class='text-white'>Come join us </h1>
+           
+              <div class="form-login"></br>
+               
+                 <h4>Secure Sign Up</h4>
+                 </br>
+                 <%-include('../partials/flashMessages')-%> 
+                 <form action="/users/signup" method="post">
+
+                 <div class="form-group  ">
+                 <input type="text" id="username"name="username" class="form-control input-sm chat-input" placeholder="email"/>
+                </div>
+                 </br></br>
+                 <div class="form-group  ">
+                 <input type="password" id="userPassword"  name="password" class="form-control input-sm chat-input" placeholder="password"/>
+                 </div>
+                </br></br>
+                 <div class="form-group  ">
+                    <input type="password" id="confirm_password"name="confirm_password" class="form-control input-sm chat-input" placeholder="confirm_password"/>
+                    </div>
+                </br></br>
+                <div class="form-group mt-4">
+                    <button type="submit" class="btn btn-primary">Sign up</button>
+                </div>
+                </div>
+               
+                 
+
+                
+            </form>
+        </div>
+    </div>
+
+
+    </br></br></br>
+         
+</div>
+    <%-include('../partials/end')-%>     

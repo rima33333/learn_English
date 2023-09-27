@@ -1,0 +1,31 @@
+<!--navbar                           ********************************-->
+<div class="navbar ">
+    <div class="icon">
+         
+        <a class="logo" href="#"> Learn english</a>
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li><a href="/users">HOME</a></li> 
+            <li><a href="/users/test">Test page</a></li>
+            <% if (!user)  { %>
+            <li><a href="/users/login">Login</a></li>
+            <li><a href="/users/signup">Sign up</a></li>
+            <% } else { %>
+                <li><a href="/users/logout">Logout</a></li>
+                <% } %>
+            
+           
+            
+        </ul>
+    </div>
+
+    <div class="search">
+        <input class="srch" type="search" id="searchInput" placeholder="Type to text">
+        <button class="btn" onclick="performSearch()">Search</button>
+    </div>
+
+</div> 
+
+<br>

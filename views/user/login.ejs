@@ -1,0 +1,47 @@
+<%-include('../partials/header')-%>
+<%-include('../partials/navbar')-%>
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-5 col-md-4 text-center">
+            <h1 class='text-white'>Unique Login Form</h1>
+            <div class="form-login"></br>
+                <h4>Secure Login</h4>
+            <%-include('../partials/flashMessages')-%> 
+            <form action="/users/login" method="post">
+
+             
+                 
+                 </br>
+                 <div class="form-group  ">
+                    <input type="text" id="username"name="username" class="form-control input-sm chat-input" placeholder="email"/>
+                </div>
+                 </br></br>
+                 <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group">
+                            <input type="password" name="password" id="password" class="form-control" placeholder="password">
+                            
+                        </div>
+                    </div>
+                </div>
+                
+
+                </br></br>
+                <div class="form-group mt-4">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+                <p class="link">Don't have an account<br>
+                    <a href="/users/signup">Sign up here</a>
+
+                 
+
+                
+            </form>
+        </div>
+    </div>
+
+
+    </br></br></br>
+         
+</div>
+    <%-include('../partials/end')-%>     

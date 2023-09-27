@@ -1,0 +1,162 @@
+<%-include('../partials/header')-%>
+<%-include('../partials/navbar')-%>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-5 col-md-4 text-center">
+            <div class="form-loginn"></br>
+                <h4>Welcome </h4>
+                </br>
+                <%-include('../partials/flashMessages')-%> 
+                <p><h4>What is your level of English?</h4>
+                    This test contains grammar and vocabulary questions and your test result will help you choose a level to practise at. The real exams contain sections such as speaking and writing which are not tested here. At the end of the test your level of English will be assessed with reference to the Common European Framework of reference for languages (cef). T
+                    hese levels are A1(lowest),A2, B1, B2, C1, C2 (highest)</p>
+                <form id="englishTest" >
+
+                    <!-- Previous 5 Questions -->
+                    <p>Question 1 of 10: The police are _______ an investigation into the robbery.</p>
+                    <input type="radio" name="q1" value="0"> working out<br>
+                    <input type="radio" name="q1" value="1"> carrying out<br>
+                    <input type="radio" name="q1" value="0"> searching out<br>
+                    <input type="radio" name="q1" value="0"> making out<br>
+
+                    <p>I am sure I would have regretted it if I _______ to take the job.</p>
+                    <input type="radio" name="q2" value="0"> would agree<br>
+                    <input type="radio" name="q2" value="0"> did agree<br>
+                    <input type="radio" name="q2" value="1"> had agreed<br>
+                    <input type="radio" name="q2" value="0"> would have agreed<br>
+                    <p>Please don't forget to ring me when you _______ home.</p>
+                    <input type="radio" name="q3" value="1"> get<br>
+                    <input type="radio" name="q3" value="0"> will get<br>
+                    <input type="radio" name="q3" value="0"> are going to get<br>
+                    <input type="radio" name="q3" value="0"> are getting<br>
+
+                    <p>You should read this novel — it's been _______ recommended by all the critics.</p>
+                    <input type="radio" name="q4" value="0"> truly<br>
+                    <input type="radio" name="q4" value="1"> highly<br>
+                    <input type="radio" name="q4" value="0"> fully<br>
+                    <input type="radio" name="q4" value="0"> deeply<br>
+                    <p>Soldiers have been sent in to try to restore _______ in the area.</p>
+                    <input type="radio" name="q5" value="0"> harmony<br>
+                    <input type="radio" name="q5" value="1"> order<br>
+                    <input type="radio" name="q5" value="0"> organisation<br>
+                    <input type="radio" name="q5" value="0"> regulation<br>
+
+
+
+                    <p>You must come quickly now or we won't _______ the bus.</p>
+                    <input type="radio" name="q6" value="0"> take<br>
+                    <input type="radio" name="q6" value="0"> meet<br>
+                    <input type="radio" name="q6" value="1"> catch<br>
+                    <input type="radio" name="q6" value="0"> run<br>
+
+                    <p>Alex _______ judo after school every Friday.</p>
+                    <input type="radio" name="q7" value="0"> goes<br>
+                    <input type="radio" name="q7" value="0"> makes<br>
+                    <input type="radio" name="q7" value="0"> plays<br>
+                    <input type="radio" name="q7" value="1"> does<br>
+
+                    <p>Jenny likes her job but she hates the long _______ to work every day.</p>
+                    <input type="radio" name="q8" value="0"> distance<br>
+                    <input type="radio" name="q8" value="0"> voyage<br>
+                    <input type="radio" name="q8" value="0"> travel<br>
+                    <input type="radio" name="q8" value="1"> journey<br>
+
+                    <p>Have you been back to the house _______ you grew up?</p>
+                    <input type="radio" name="q9" value="1"> which<br>
+                    <input type="radio" name="q9" value="0"> who<br>
+                    <input type="radio" name="q9" value="0"> when<br>
+                    <input type="radio" name="q9" value="0"> where<br>
+
+                    <p>I must _______ for being so late.</p>
+                    <input type="radio" name="q10" value="0"> regret<br>
+                    <input type="radio" name="q10" value="0"> excuse<br>
+                    <input type="radio" name="q10" value="1"> apologise<br>
+                    <input type="radio" name="q10" value="0"> pardon<br>
+                    <p>There were so many people at the beach that we couldn't find _______ to sit.</p>
+                    <input type="radio" name="q11" value="0"> a space<br>
+                    <input type="radio" name="q11" value="0"> a room<br>
+                    <input type="radio" name="q11" value="1"> a place<br>
+                    <input type="radio" name="q11" value="0"> a seat<br>
+                    
+                    <p>Mike _______ football every weekend if he has time.</p>
+                    <input type="radio" name="q12" value="0"> played<br>
+                    <input type="radio" name="q12" value="1"> plays<br>
+                    <input type="radio" name="q12" value="0"> is playing<br>
+                    <input type="radio" name="q12" value="0"> play<br>
+                    
+                    <p>She doesn't eat meat _______ she's vegetarian.</p>
+                    <input type="radio" name="q13" value="1"> because<br>
+                    <input type="radio" name="q13" value="0"> so<br>
+                    <input type="radio" name="q13" value="0"> but<br>
+                    <input type="radio" name="q13" value="0"> however<br>
+                    
+                    <p>If we _______ now, we would be on time for the movie.</p>
+                    <input type="radio" name="q14" value="0"> go<br>
+                    <input type="radio" name="q14" value="1"> leave<br>
+                    <input type="radio" name="q14" value="0"> went<br>
+                    <input type="radio" name="q14" value="0"> leaving<br>
+                    
+                    <p>She was running fast, but she couldn't _______ up with the others.</p>
+                    <input type="radio" name="q15" value="0"> hold<br>
+                    <input type="radio" name="q15" value="0"> keep<br>
+                    <input type="radio" name="q15" value="1"> catch<br>
+                    <input type="radio" name="q15" value="0"> match<br>
+                    
+                    <!-- Result and Submit Button -->
+                    <input type="text" id="result" readonly >
+                    
+                    <input type="submit" value="Submit" class="btn">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- JavaScript to handle form submission and scoring -->
+<script>
+     document.getElementById('englishTest').addEventListener('submit', function(e) {
+    // Prevent the form from submitting
+    e.preventDefault();
+
+    let score = 0;
+
+    // Loop through each question and add up the scores
+    const answers = document.querySelectorAll('input[type="radio"]:checked');
+    if (answers.length !== 15) {
+        // Check to make sure all questions have been answered
+        alert("Please answer all questions.");
+        return;
+    }
+
+    answers.forEach(answer => {
+        score += parseInt(answer.value, 10);
+    });
+
+    let grade;
+    switch(score) {
+        case 15: 
+            grade = 'C2';
+            break;
+        case 13: 
+            grade = 'C1';
+            break;
+        case 10: 
+            grade = 'B2';
+            break;
+        case 8: 
+            grade = 'B1';
+            break;
+        case 5: 
+            grade = 'A2';
+            break;
+        default:
+            grade = 'A1';
+    }
+
+    // Update the value of the result input field
+    document.getElementById('result').value = `Your English skill is: ${grade}`;
+});
+
+</script>
+
+<%-include('../partials/end')-%>
